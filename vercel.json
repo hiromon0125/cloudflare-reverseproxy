@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://rit-service-info-scraper.hiroto125takeuchi.workers.dev/$1"
+    }
+  ]
+}
